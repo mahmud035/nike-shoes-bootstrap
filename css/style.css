@@ -89,6 +89,12 @@ header {
 }
 
 /* ----------------Media Query-------------------- */
+/* @media (max-width: 767px) {
+  .showcase-container {
+    padding-top: 5rem;
+  }
+} */
+
 @media (max-width: 991px) {
   .showcase-container h1 {
     font-weight: 600;
