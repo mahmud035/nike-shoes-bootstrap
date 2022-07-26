@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* -----------------Utility Classes---------------- */
+.highlight {
+  color: #fa804c;
+}
+
+.btn-background {
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0.7rem 1.5rem;
+}
+
+.fa-shopping-cart {
+  margin-right: 5px;
+}
+/* -----------------Header Section----------------- */
+header {
+  background-color: #fff9f4;
+}
+
+/* ----------------Showcase Section------------------ */
+.showcase-container h1 {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.showcase-container p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e3e3e;
+}
+
+/* ---------------Casual Shoes Section--------------- */
+.card {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  border: none;
+  filter: drop-shadow(0px 30px 10px rgba(0, 0, 0, 0.15));
+}
+
+.card img {
+  background: #f1f1f1;
+  border-radius: 20px;
+  height: 70%;
+}
+
+.card h5 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #363958;
+}
+/* ----------------Formal Shoes Section-------------- */
+
+/* ----------------Shopping Cart Section--------------- */
+
+/* ------------------Hover Effect----------------------- */
+.btn-background:hover {
+  color: white;
+}
+
+/* ----------------Media Query-------------------- */
+@media (max-width: 991px) {
+  .showcase-container h1 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
