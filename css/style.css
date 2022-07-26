@@ -63,7 +63,8 @@ header {
 }
 
 /* ---------------Casual Shoes Section--------------- */
-.card {
+.card,
+.shopping-card {
   background: #ffffff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -102,12 +103,6 @@ header {
 }
 
 /* ----------------Media Query-------------------- */
-/* @media (max-width: 767px) {
-  .showcase-container {
-    padding-top: 5rem;
-  }
-} */
-
 @media (max-width: 991px) {
   .showcase-container h1 {
     font-weight: 600;
